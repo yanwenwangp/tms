@@ -1,0 +1,63 @@
+{
+    "HasError": false,
+    "ErrorMsg": null,
+    "DetailMsg": null,
+    "Data": [
+        {
+            "ReturnTypeId": 101,
+            "ReturnTypeName": "已出口",
+            "TypeList": []
+        },
+        {
+            "ReturnTypeId": 102,
+            "ReturnTypeName": "未出口",
+            "TypeList": [
+                {
+                    "TypeId": 100,
+                    "TypeName": "安检不合格",
+                    "Visible": false,
+                    "HandleTypeList": null
+                },
+                {
+                    "TypeId": 206,
+                    "TypeName": "面单破损",
+                    "Visible": false,
+                    "HandleTypeList": null
+                },
+                {
+                    "TypeId": 212,
+                    "TypeName": "发错仓",
+                    "Visible": false,
+                    "HandleTypeList": null
+                },
+                {
+                    "TypeId": 205,
+                    "TypeName": "目的国不通",
+                    "Visible": false,
+                    "HandleTypeList": null
+                },
+                {
+                    "TypeId": 407,
+                    "TypeName": "邮编错误",
+                    "Visible": false,
+                    "HandleTypeList": null
+                }
+            ]
+        },
+        {
+            "ReturnTypeId": 103,
+            "ReturnTypeName": "航站退回",
+            "TypeList": []
+        },
+        {
+            "ReturnTypeId": 104,
+            "ReturnTypeName": "供应商无数据",
+            "TypeList": []
+        },
+        {
+            "ReturnTypeId": 9901,
+            "ReturnTypeName": "重号",
+            "TypeList": []
+        }
+    ]
+}
